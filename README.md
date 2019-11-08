@@ -10,5 +10,6 @@ for ( var a = 0; a < weather.length; a++ ) {
 console.log ( letters );
 
 #1.2
-String (letters);
+var str = letters.join("");
+console.log (str);
 ```
