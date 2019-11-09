@@ -1,6 +1,6 @@
-#####Lesson_02_Margin D.M
+##### Lesson_02_Margin D.M
 ```
-#1.1
+# 1.1
 var letters = [];
 var weather = "The weather is nice".split(" ");
 for ( var a = 0; a < weather.length; a++ ) {
@@ -9,12 +9,12 @@ for ( var a = 0; a < weather.length; a++ ) {
 
 console.log ( letters );
 
-#1.2
+# 1.2
 var str = letters.join("");
 console.log (str);
 ```
 ```
-#2.var1
+# 2.var1
 function checkNmbr (x) {
     if ( typeof(x) !== "number" ) 
     	console.log ( "Неверный тип данных" )
@@ -22,7 +22,7 @@ function checkNmbr (x) {
 	console.log (new Date);
 }
 
-#2.var2
+# 2.var2
 function checkNmbr (x) {
     if ( typeof(x) !== "number" ) 
     	return console.log ( "Неверный тип данных" )
