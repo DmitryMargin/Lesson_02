@@ -13,3 +13,19 @@ console.log ( letters );
 var str = letters.join("");
 console.log (str);
 ```
+```
+#2.var1
+function checkNmbr (x) {
+    if ( typeof(x) !== "number" ) 
+    	console.log ( "Неверный тип данных" )
+    else 
+	console.log (new Date);
+}
+
+#2.var2
+function checkNmbr (x) {
+    if ( typeof(x) !== "number" ) 
+    	return console.log ( "Неверный тип данных" )
+    return new Date;
+}
+```
