@@ -18,13 +18,19 @@ function checkNmbr (x) {
     if ( typeof(x) !== "number" ) 
     	console.log ( "Неверный тип данных" )
     else 
-	console.log (new Date);
+	console.log (new Date().toLocaleString());
 }
+
+checkNmbr (2) //проверяем с числом
+checkNmbr ("a") //проверяем с не числом 
 
 # 2.var2
 function checkNmbr (x) {
     if ( typeof(x) !== "number" ) 
     	return console.log ( "Неверный тип данных" )
-    return new Date;
+    return (new Date().toLocaleString());;
 }
+
+checkNmbr (2) //проверяем с числом
+checkNmbr ("a") //проверяем с не числом 
 ```
