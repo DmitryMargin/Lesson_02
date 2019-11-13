@@ -34,3 +34,16 @@ function checkNmbr (x) {
 checkNmbr (2) //проверяем с числом
 checkNmbr ("a") //проверяем с не числом 
 ```
+```
+# 3
+
+Ставим точку останова:
+[**Screen1**](https://prnt.sc/pw51j0)
+
+Смотрим как работает вредоносный код:
+[**Screen2**](https://prnt.sc/pw51te)
+
+Меняем в файле index01.js код ```return userText``` на ```return userText.split("<").join("&lt;")``` 
+и обезвреживаем вредоносный код
+[**Screen3**](https://prnt.sc/pw52li)
+```
