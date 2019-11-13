@@ -43,7 +43,7 @@ checkNmbr ("a") //проверяем с не числом
 Смотрим как работает вредоносный код:
 [**Screen2**](https://prnt.sc/pw51te)
 
-Меняем в файле index01.js код ```return userText``` на ```return userText.split("<").join("&lt;")``` 
-и обезвреживаем вредоносный код
+Меняем в файле index01.js код return userText на return userText.split("<").join("&lt;") 
+и обезвреживаем вредоносный код:
 [**Screen3**](https://prnt.sc/pw52li)
 ```
