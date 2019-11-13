@@ -27,7 +27,7 @@ checkNmbr ("a") //проверяем с не числом
 # 2.var2
 function checkNmbr (x) {
     if ( typeof(x) !== "number" ) 
-    	return console.log ( "Неверный тип данных" )
+    	return "Неверный тип данных"
     return (new Date().toLocaleString());;
 }
 
